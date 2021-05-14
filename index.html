@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height,initial-scale=1.0">
+    <title>Text Editor</title>
+    <meta name="description" content="Simple Text Editor using JS">
+    <meta name="keywords" content="text, editor, JavaScript, JS">
+    <meta name="author" content="Wojciech Szewczyk">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="header">
+            <button type="button" class="bold">
+                <i class="fas fa-bold"></i>
+            </button>
+            <button type="button" class="italic">
+                <i class="fas fa-italic"></i>
+            </button>
+            <button type="button" class="list">
+                <i class="fas fa-list-ul"></i>
+            </button>
+            <button type="button" class="save">
+                <i class="fas fa-save"></i>
+            </button>
+            <button type="button" class="import">
+                <i class="fas fa-file-import"></i>
+            </button>
+
+        </div>
+
+        <div class="insert" contenteditable="true" spellcheck="false"></div>
+
+    </div>
+
+    <script src="main.js"></script>
+
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+
+</body>
+
+</html>

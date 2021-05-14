@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 70vw;
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main {
+    box-shadow: 0 0 6px 7px rgba(207, 148, 81, 0.18);
+}
+
+.header {
+    padding: 10px;
+    background-color: rgba(207, 148, 81, 0.18);
+    text-align: center;
+    border: 2px solid rgba(165, 124, 77, 0.411);
+    border-bottom: none;
+}
+
+.bold,
+.italic,
+.list,
+.save,
+.import {
+    margin: 0 15px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+button:hover {
+    box-shadow: 0 0 2px 2px rgba(165, 124, 77, 0.411);
+    transition: 0.3s;
+}
+
+.insert {
+    padding: 25px;
+    min-height: 60vh;
+    border: 2px solid rgba(165, 124, 77, 0.411);
+    font-family: "mulish";
+    font-size: 16px;
+    line-height: 1.75;
+    justify-content: left;
+    letter-spacing: 1px;
+}
